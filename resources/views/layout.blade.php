@@ -11,7 +11,7 @@
     <body>
         <header>
             <nav class="my-navbar">
-                <a href="my-navbar-brand" href="/">TODO LIST</a>
+                <a href="/" class="my-navbar-brand">TODO LIST</a>
                 <div class="my-navbar-control">
                     @if(Auth::check())
                         <span class="my-navbar-item">ようこそ、{{ Auth::user()->name }}さん</span>

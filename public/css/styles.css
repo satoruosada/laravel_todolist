@@ -21,11 +21,11 @@ body {
 
 .my-navbar-brand {
   font-size: 18px;
+  color:#66c2ec;
 }
 
-.my-navbar-brand,
 .my-navbar-item {
-  color: #8c8c8c;
+  color: hsl(0, 33%, 97%);
 }
 
 .my-navbar-brand:hover,

@@ -29,6 +29,7 @@ Route::group(['middleware' => 'auth'], function() {
     Route::post('/comment', 'CommentController@create');
     // 入力後にリダイレクトする完了画面のルート
     Route::get('/comment/thanks', 'CommentController@thanks')->name('comment.thanks');
+
     
     Route::get('/', 'HomeController@index')->name('home');
 
